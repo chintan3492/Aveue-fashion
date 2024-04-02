@@ -9,7 +9,7 @@
 
 .container {
     width: 100%;
-    padding: 0px 25px;
+    padding: 0px 134px;
     margin: 0 auto;
     max-width: 1920px;
 }
@@ -177,10 +177,7 @@ header {
 
 }
 
-/* .nav-list li{
-    display: flex;
-    justify-content: space-between;
-} */
+
 
 /* LOGO */
 .logo img {
@@ -231,4 +228,79 @@ header {
     text-align: center;
     top: 100%;
     right: 328px;
+}
+
+/* CARDS-SECTION*/
+.card-nav li a {
+    text-decoration: none;
+    font-size: 13px;
+    font-family: montserat;
+    font-weight: 400;
+    color: #000;
+
+}
+
+.card-nav {
+    list-style-type: none;
+    display: flex;
+    gap: 60px;
+    text-transform: uppercase;
+}
+
+.card-nav li a:hover {
+    color: #00c8c8;
+}
+
+.dress-card {
+    padding: 56px 0px 64px 0px;
+}
+
+.dress-img {
+    display: flex;
+
+}
+
+/* SECTION-1 */
+.section-1 {
+    width: 50%;
+
+}
+
+.small-img {
+    display: flex;
+    gap: 31px;
+    /* width: 50%; */
+}
+
+.big-img {
+    padding: 31px 0px 0px 0px;
+}
+.big-img img{
+    width: 100%;
+}
+
+/* SECTION-2 */
+.section-2 {
+    width: 50%;
+}
+
+.small-img-2 {
+    display: flex;
+    gap: 31px;
+    padding: 31px 0px 0px 0px;
+}
+
+.big-img-2 img{
+    width: 100%;
+}
+
+.orange img {
+    position: relative;
+}
+
+.front-back {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    right: 0;
 }
