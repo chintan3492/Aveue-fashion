@@ -230,7 +230,17 @@ header {
     right: 328px;
 }
 
+.search-btn p:hover {
+    color: #fff;
+    background-color: #000;
+
+}
+
 /* CARDS-SECTION*/
+.dress-card {
+    padding: 55px;
+}
+
 .card-nav li a {
     text-decoration: none;
     font-size: 13px;
@@ -251,56 +261,73 @@ header {
     color: #00c8c8;
 }
 
-.dress-card {
-    padding: 56px 0px 64px 0px;
+/*  T-SHIRT PHOTO */
+/*  LEFT-CARD */
+.left-card {
+    /* width: 55%; */
 }
 
-.dress-img {
-    display: flex;
-
-}
-
-/* SECTION-1 */
-.section-1 {
-    width: 50%;
-
-}
-
-.small-img {
+.img-card {
     display: flex;
     gap: 31px;
-    /* width: 50%; */
+    /* flex-direction: column; */
+
 }
 
-.big-img {
-    padding: 31px 0px 0px 0px;
-}
-.big-img img{
-    width: 100%;
+.small-img {}
+
+.big-img img {
+    padding: 31px 0 0 0;
+    width: 870px;
+    height: 704;
+
 }
 
-/* SECTION-2 */
-.section-2 {
-    width: 50%;
+/* RIGHT-CARD */
+.big-img-1 {
+    width: 870px;
+    height: 704;
 }
 
-.small-img-2 {
+.small-img-1 {
     display: flex;
-    gap: 31px;
-    padding: 31px 0px 0px 0px;
+    padding: 31px 0 0 0;
 }
 
-.big-img-2 img{
-    width: 100%;
-}
-
-.orange img {
+.orange {
     position: relative;
+}
+
+.orange .price-tag-5 {
+    position: absolute;
+    font-size: 21px;
+    top: 25px;
+    left: 35px;
+    color: #9a9a9a;
+
 }
 
 .front-back {
     position: absolute;
     display: flex;
     flex-direction: column;
-    right: 0;
+    gap: 16px;
+    right: 37px;
+    top: 35px;
+}
+
+.front-back img {
+    border: 1px solid #fff;
+}
+
+.female-tee {
+    position: relative;
+}
+
+.female-tee .price-tag-6 {
+    position: absolute;
+    font-size: 21px;
+    top: 15px;
+    left: 16px;
+    color: #9a9a9a;
 }
