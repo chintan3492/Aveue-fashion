@@ -285,8 +285,17 @@ header {
 
 /* RIGHT-CARD */
 .big-img-1 {
+    position: relative;
     width: 870px;
     height: 704;
+}
+
+.big-img-1 .price-tag-4 {
+    position: absolute;
+    font-size: 21px;
+    top: 25px;
+    left: 35px;
+    color: #9a9a9a;
 }
 
 .small-img-1 {
