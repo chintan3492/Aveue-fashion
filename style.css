@@ -112,7 +112,7 @@ header {
 /* SLIDER IMAGE */
 .slider-main {
     background-color: #ffff;
-    border-bottom: 5px solid black;
+
     padding-bottom: 50px;
 
 }
@@ -239,6 +239,9 @@ header {
 /* CARDS-SECTION*/
 .dress-card {
     padding: 55px;
+    border-top: 2px solid #666;
+    border-bottom: 2px solid #666;
+    
 }
 
 .card-nav li a {
@@ -255,6 +258,7 @@ header {
     display: flex;
     gap: 60px;
     text-transform: uppercase;
+    padding-bottom: 50px;
 }
 
 .card-nav li a:hover {
@@ -262,19 +266,12 @@ header {
 }
 
 /*  T-SHIRT PHOTO */
-/*  LEFT-CARD */
-.left-card {
-    /* width: 55%; */
-}
-
 .img-card {
     display: flex;
     gap: 31px;
-    /* flex-direction: column; */
-
+   
 }
 
-.small-img {}
 
 .big-img img {
     padding: 31px 0 0 0;
@@ -305,6 +302,7 @@ header {
 
 .orange {
     position: relative;
+  
 }
 
 .orange .price-tag-5 {
@@ -339,4 +337,43 @@ header {
     top: 15px;
     left: 16px;
     color: #9a9a9a;
+}
+
+/* HOVER DETAILS OF T-SHIRT */
+.detail-tag h3 {
+    font-size: 15px;
+    color: #666666;
+    text-align: center;
+}
+
+.detail-tag p {
+    font-size: 13px;
+    color: #999;
+    text-align: center;
+}
+
+.detail-tag {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    visibility: hidden;
+    width: 420px;
+
+}
+
+.detail-icon {
+    font-size: 16px;
+    text-align: center;
+    padding-top: 10px;
+    /* display: flex; */
+}
+
+.detail-icon .fa-link {
+    padding-left: 16px;
+}
+
+.orange:hover .detail-tag {
+    position: relative;
+    visibility: visible;
+    justify-content: center;
 }
