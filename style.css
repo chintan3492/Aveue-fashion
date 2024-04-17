@@ -297,7 +297,7 @@ header {
     position: relative;
     /* width: 870px;
     height: 704;*/
-} 
+}
 
 .big-img-1 .price-tag-4 {
     position: absolute;
@@ -422,14 +422,28 @@ header {
 /* THREE CARDS */
 .card-view {
     padding: 64px 0px 0px 0px;
+    display: flex;
+    gap: 30px;
+    
+}
+.card-1, .card-2, .card-3{
+    width: 33%;
 }
 
-.men-cloth img {
+
+.person-cloth {
     position: relative;
+    border: 2px solid #000;
+    /* width: 660px;
+    height: 530px; */
+
 }
 
 .view-card-detail {
     position: absolute;
+    width: 280px;
+    top: 103px;
+    right: 60px;
 }
 
 .view-card-detail h2 {
@@ -437,4 +451,34 @@ header {
     font-weight: 400;
     text-transform: uppercase;
     color: #575153;
+    text-align: right;
+}
+
+.view-card-detail p {
+    /* width: 50%; */
+    padding-top: 32px;
+    text-align: right;
+}
+
+.view {
+    padding-top: 35px;
+    text-align: right;
+}
+
+.view a {
+    width: fit-content;
+    padding: 5px;
+    border: 1px solid #737373;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.view a:hover {
+    cursor: pointer;
+    color: #fff;
+    background-color: #00c8c8;
 }
